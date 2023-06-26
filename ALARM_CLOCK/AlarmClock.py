@@ -28,7 +28,7 @@ class AlarmApp(tk.Tk):
         self.min = tk.IntVar(self)
         self.ampm = tk.StringVar(self)
         #Set the initial values of each drop-down list
-        self.hr.set('12')
+        self.hr.set('24')
         self.min.set("00")
         self.ampm.set("AM")
         #Create the list of values from which we are choosing from in our drop-down list
